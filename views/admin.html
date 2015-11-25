@@ -1,0 +1,24 @@
+<img src="../img/mm_logo2.png" width="20%" height="20%">
+
+<div class="whiteBg row voffset10">
+
+    <div class="col-md-12 redBg text-left">
+            <p>Hello Admin</p>
+    </div>
+
+    <div class="col-md-12 voffset10 text-right">
+        <button ui-sref="newuser" class="btn btn-default btn-sm btn-info" type="button">Add new user</button>
+    </div>
+
+
+    <div class="col-md-12 voffset15">
+        <ul class="list-group text-left" ng-show="users.length > 0">
+            <li class="list-group-item" ng-repeat="user in users">
+                <a class="badge"><span class="glyphicon glyphicon-edit" aria-hidden="true"></span> Edit
+                </a>
+                {{user.email}}
+            </li>
+        </ul>
+    </div>
+</div>
+

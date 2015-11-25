@@ -1,0 +1,33 @@
+body {
+    background: url('../img/intro_bg.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    padding-top: 50px;
+}
+.moebel {
+    padding: 40px 15px;
+    text-align: center;
+}
+
+.loginBox {
+    border: 2px solid #8F489A;
+}
+
+.whiteBg {
+    background-color: #ffffff;
+}
+
+.redBg {
+    background-color: lightcoral;
+    color: #ffffff;
+}
+.voffset  { margin-top: 2px; }
+.voffset5 { margin-top: 5px; }
+.voffset10 { margin-top: 10px; }
+.voffset15 { margin-top: 15px; }
+.voffset20 { margin-top: 20px; }

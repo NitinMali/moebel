@@ -1,0 +1,39 @@
+<img src="../img/mm_logo2.png" width="20%" height="20%">
+
+<div class="whiteBg row voffset10">
+
+    <div class="col-md-12 text-left">
+            <p>Hello {{loggedUser.email}}</p>
+    </div>
+
+    <div class="col-md-6 col-md-offset-3 voffset15">
+        <form role="form">
+            <div class="form-group">
+                <input type="text" ng-model="loggedUser.firstName" class="form-control"
+                       placeholder="Please enter firstName">
+            </div>
+            <div class="form-group">
+                <input type="text" ng-model="loggedUser.lastName" class="form-control"
+                       placeholder="Please enter lastName">
+            </div>
+            <div class="form-group">
+                <input type="text" ng-model="loggedUser.street" class="form-control"
+                       placeholder="Please enter street">
+            </div>
+
+            <div class="form-group">
+                <input type="text" ng-model="loggedUser.zip" class="form-control"
+                       placeholder="Please enter zip">
+            </div>
+
+            <div class="form-group">
+                <input type="email" ng-model="loggedUser.city" class="form-control"
+                placeholder="Please enter city">
+            </div>
+
+            <button class="btn btn-default btn-lg btn-info" ng-click="save()" type="button">Save</button>
+        </form>
+        <br>
+    </div>
+</div>
+
